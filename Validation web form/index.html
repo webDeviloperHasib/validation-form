@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/6f55b5ced1.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    
+   <div class="main">
+        <header>
+           
+            <form action="" name="form" id="form">
+                <h2>Create Account</h2>
+                <div class="form_control">
+                    <label for="username">UserName:</label>
+                    <input type="text" name="username" class="username" id="username" autocomplete="off" placeholder="hasib11">
+                    <i class="fas fa-check-circle check1"></i>
+                    <i class="fas fa-exclamation-circle exclamation1"></i>
+                    <span class="usernameError one" id="usernameError">k</span>
+                </div>
+                <div class="form_control">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" autocomplete="off" class="email" id="email" placeholder="examplet@gmail.com">
+                    <i class="fas fa-check-circle check2"></i>
+                    <i class="fas fa-exclamation-circle exclamation2"></i>
+                    <span class="emailError two" id="emailError">k</span>
+                </div>
+                <div class="form_control">
+                    <label for="password1">Password:</label>
+                    <input type="password" class="password" autocomplete="off" name="password1" id="password1" placeholder="password">
+                    <i class="fas fa-check-circle check3"></i>
+                    <i class="fas fa-exclamation-circle exclamation3"></i>
+                    <span class="passwordError" id="passwordError">nk</span>
+                </div>
+                <div class="form_control">
+                    <label for="password2">Check Password:</label>
+                    <input type="password" class="password2" autocomplete="off" name="password2" id="password2" placeholder="same password">
+                    <i class="fas fa-check-circle check4"></i>
+                    <i class="fas fa-exclamation-circle exclamation4"></i>
+                    <span class="password2Error" id="password2Error">Pk</span>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </header>
+   </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
